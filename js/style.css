@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header{
+  flex: 1 0 auto;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.main {
+  flex: 1 0 auto;
+  height: 1000px;
+  text-align: center;
+  vertical-align: middle;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.85);;
+  flex: 0 0 auto;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  fill: #ffffff;
+  margin:10px 0;
+  padding: 0 20px;
+}
+
+.header__container > svg {
+  height: 50px;
+  width: 50px;
+  transition: 0.3s;
+}
+
+.header__container > svg:hover {
+  fill: #e4bb06e7;
+}
+
+.header__items {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+}
+.header__item {
+  margin: 0 10px;
+}
+
+.button {
+  background-color: transparent;
+  border: 0;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: #e4bb06e7;
+  cursor: pointer;
+}
+
+.button-play {
+  background-color: transparent;
+  border: 0;
+  height: 200px;
+  width: 200px;
+  transition: all 0.3s;
+  display: inline-block;
+  margin-top: 350px; 
+  fill: #ffffff;
+}
+
+.button-play:hover{
+  fill: #e4bb06e7;
+  cursor: pointer;
+}
+
+.button-active {
+  color: #e4bb06e7;
+}
+
+.background-shadow {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.button-unactive{
+  display: none;
+  transition: 0.3s;
+}
+
+.bg1 {
+  background-image: url('pictures/bg1.jpg');
+}
+
+.bg2 {
+  background-image: url('pictures/bg2.jpg');
+}
+
+.bg3 {
+  background-image: url('pictures/bg3.jpg');
+}
+
+.bg4 {
+  background-image: url('pictures/bg4.jpg');
+}
+
+.bg5 {
+  background-image: url('pictures/bg5.jpg');
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.footer__container__items {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__container__item {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0 10px;
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-shadow: 1px 1px black;
+}
+
+a.footer__container__item:hover{
+  color: #e4bb06e7;
+}
+.rss__link {
+  fill: #ffffff;
+  transition: 0.3s;
+}
+
+.rss__link:hover {
+  fill: #e4bb06e7;
+}
+
+.rss__link > svg {
+  height: 70px;
+}
