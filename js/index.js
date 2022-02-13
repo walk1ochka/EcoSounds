@@ -40,7 +40,6 @@ headerItems.addEventListener('click', e => {
      currentAudio.pause();
      svgPause.classList.add('button-unactive');
      svgPlay.classList.remove('button-unactive');
-     currentAudio.loop=true;
  }
 
  function playAudio() {
@@ -48,6 +47,7 @@ headerItems.addEventListener('click', e => {
     currentAudio.play();
     svgPlay.classList.add('button-unactive');
     svgPause.classList.remove('button-unactive');
+    currentAudio.loop=true;
 }
 
 function changeBg(num) {
